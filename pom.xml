@@ -35,6 +35,7 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
+	<build>
 	<plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -72,6 +73,7 @@
             </executions>
         </plugin>
        </plugins>
+       </build>
 	<dependencies>
 		<!-- As updates are released for EAP the version of the provided jboss-javaee-6.0 
 			jar can change. To ensure your application is compiling against the same 
